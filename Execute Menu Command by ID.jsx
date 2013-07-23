@@ -35,8 +35,8 @@ var script_file_path = script_file.path; // get the path
 
 data =  {
   "script_version":0.1,
-  "website":"https://github.com/fabiantheblind/after-effects-script-snippets",
-  "issue_tracker":"https://github.com/fabiantheblind/after-effects-script-snippets/issues",
+  "website":"https://github.com/fabiantheblind/Execute-Menu-Command-by-ID",
+  "issue_tracker":"https://github.com/fabiantheblind/Execute-Menu-Command-by-ID/issues",
       "script_file" :script_file, // get the location of the    scriptfile
     "script_file_path" : script_file_path, // get the path
     "verison_history" : [
@@ -49,176 +49,176 @@ data =  {
 data.images_binary = [data.icon_info];
 
 data.cmdListEn = [
-{"title":"File New","id":2264},
-{"title":"Open Project","id":3},
-{"title":"Open Recent Projects","id":2284},
-{"title":"Browse...","id":3689},
-{"title":"Browse Template Projects...","id":3692},
-{"title":"Clos","id":4},
-{"title":"Close Project","id":3154},
-{"title":"Save","id":5},
-{"title":"Save As...","id":6},
-{"title":"Save a Copy...","id":2166},
-{"title":"Increment and Save","id":3088},
-{"title":"Revert","id":7},
-{"title":"Import","id":2105},
-{"title":"Import Recent Footage","id":2283},
-{"title":"Export","id":2494},
-{"title":"Find...","id":2607},
-{"title":"Find Next","id":2608},
-{"title":"Add Footage to Comp","id":2005},
-{"title":"New Comp from Selection...","id":2796},
-{"title":"Consolidate All Footage","id":2107},
-{"title":"Remove Unused Footage","id":2109},
-{"title":"Reduce Project","id":2735},
-{"title":"Collect Files...","id":2482},
-{"title":"Watch Folder...","id":2457},
-{"title":"Create Proxy","id":2777},
-{"title":"Set Proxy","id":2106},
-{"title":"Interpret Footage","id":2102},
-{"title":"Replace Footage","id":2237},
-{"title":"Reload Footage","id":2257},
-{"title":"Reveal in Explorer","id":2562},
-{"title":"Reveal in Bridge","id":3690},
-{"title":"Project Settings...","id":2611},
-{"title":"Page Setup...","id":8},
-{"title":"Print...","id":9},
-{"title":"Quit","id":1},
+{"appVersions":[8],"title":"File New","id":2264},
+{"appVersions":[8,9,10,11,12],"title":"Open Project","id":3},
+{"appVersions":[8,9,10,12],"title":"Open Recent Projects","id":2284},
+{"appVersions":[8,9,10,11,12],"title":"Browse...","id":3689},
+{"appVersions":[8,9,10,11,12],"title":"Browse Template Projects...","id":3692},
+{"appVersions":[8,9,10,11,12],"title":"Clos","id":4},
+{"appVersions":[8,9,10,11,12],"title":"Close Project","id":3154},
+{"appVersions":[8,9,10,11,12],"title":"Save","id":5},
+{"appVersions":[8,9,10,11,12],"title":"Save As...","id":6},
+{"appVersions":[8,9,10,11,12],"title":"Save a Copy...","id":2166},
+{"appVersions":[8,9,10,11,12],"title":"Increment and Save","id":3088},
+{"appVersions":[8,9,10,11,12],"title":"Revert","id":7},
+{"appVersions":[8,9,10,11,12],"title":"Import","id":2105},
+{"appVersions":[8,9,10,11,12],"title":"Import Recent Footage","id":2283},
+{"appVersions":[8,9,10,11,12],"title":"Export","id":2494},
+{"appVersions":[8,9,10,11,12],"title":"Find...","id":2607},
+{"appVersions":[8,9,10,11,12],"title":"Find Next","id":2608},
+{"appVersions":[8,9,10,11,12],"title":"Add Footage to Comp","id":2005},
+{"appVersions":[8,9,10,11,12],"title":"New Comp from Selection...","id":2796},
+{"appVersions":[8,9,10,11,12],"title":"Consolidate All Footage","id":2107},
+{"appVersions":[8,9,10,11,12],"title":"Remove Unused Footage","id":2109},
+{"appVersions":[8,9,10,11,12],"title":"Reduce Project","id":2735},
+{"appVersions":[8,9,10,11,12],"title":"Collect Files...","id":2482},
+{"appVersions":[8,9,10,11,12],"title":"Watch Folder...","id":2457},
+{"appVersions":[8,9,10,11,12],"title":"Create Proxy","id":2777},
+{"appVersions":[8,9,10,11,12],"title":"Set Proxy","id":2106},
+{"appVersions":[8,9,10,11,12],"title":"Interpret Footage","id":2102},
+{"appVersions":[8,9,10,11,12],"title":"Replace Footage","id":2237},
+{"appVersions":[8,9,10,11,12],"title":"Reload Footage","id":2257},
+{"appVersions":[8,9,10,11,12],"title":"Reveal in Explorer","id":2562},
+{"appVersions":[8,9,10,11,12],"title":"Reveal in Bridge","id":3690},
+{"appVersions":[8,9,10,11,12],"title":"Project Settings...","id":2611},
+{"appVersions":[8,9,10,11,12],"title":"Page Setup...","id":8},
+{"appVersions":[8,9,10,11,12],"title":"Print...","id":9},
+{"appVersions":[8,9,10,11,12],"title":"Quit","id":1},
 
 /* Scripts */
-{"title":"Execute Scriptfile...","id":8000},
+{"appVersions":[8,9,10,11,12],"title":"Execute Scriptfile...","id":8000},
 /* Edit */
-{"title":"Undo","id":16},
-{"title":"Redo","id":2035},
-{"title":"History","id":2995},
-{"title":"Cut","id":18},
-{"title":"Copy","id":19},
-{"title":"Copy Expression Only","id":53},
-{"title":"Paste","id":20},
-{"title":"Clear","id":21},
-{"title":"Duplicate","id":2080},
-{"title":"Split Layer","id":2158},
-{"title":"Lift Work Area","id":2613},
-{"title":"Extract Work Area","id":2614},
-{"title":"Select All","id":23},
-{"title":"Deselect All","id":2004},
+{"appVersions":[8,9,10,11,12],"title":"Undo","id":16},
+{"appVersions":[8,9,10,11,12],"title":"Redo","id":2035},
+{"appVersions":[8,9,10,11,12],"title":"History","id":2995},
+{"appVersions":[8,9,10,11,12],"title":"Cut","id":18},
+{"appVersions":[8,9,10,11,12],"title":"Copy","id":19},
+{"appVersions":[8,9,10,11,12],"title":"Copy Expression Only","id":53},
+{"appVersions":[8,9,10,11,12],"title":"Paste","id":20},
+{"appVersions":[8,9,10,11,12],"title":"Clear","id":21},
+{"appVersions":[8,9,10,11,12],"title":"Duplicate","id":2080},
+{"appVersions":[8,9,10,11,12],"title":"Split Layer","id":2158},
+{"appVersions":[8,9,10,11,12],"title":"Lift Work Area","id":2613},
+{"appVersions":[8,9,10,11,12],"title":"Extract Work Area","id":2614},
+{"appVersions":[8,9,10,11,12],"title":"Select All","id":23},
+{"appVersions":[8,9,10,11,12],"title":"Deselect All","id":2004},
 
-{"title":"Label","id":2358},
-{"title":"Purge","id":2370},
-{"title":"Edit Original...","id":2142},
-{"title":"Edit in Adobe Audition","id":3697},
-{"title":"Edit in Adobe Sound booth","id":3761},
-{"title":"Templates","id":2265},
-{"title":"Preferences","id":2079},
+{"appVersions":[8,9,10,11,12],"title":"Label","id":2358},
+{"appVersions":[8,9,10,11,12],"title":"Purge","id":2370},
+{"appVersions":[8,9,10,11,12],"title":"Edit Original...","id":2142},
+{"appVersions":[8,9,10,11,12],"title":"Edit in Adobe Audition","id":3697},
+{"appVersions":[8,9,10,11,12],"title":"Edit in Adobe Sound booth","id":3761},
+{"appVersions":[8,9,10,11,12],"title":"Templates","id":2265},
+{"appVersions":[8,9,10,11,12],"title":"Preferences","id":2079},
 
-{"title":"Layer New","id":2606},
-{"title":"Layer Settings","id":2021},
-{"title":"Open Layer","id":2015},
-{"title":"Open So urce Window","id":2523},
-{"title":"Mask","id":2040},
-{"title":"Mask and Shape Path","id":3745},
-{"title":"Quality","id":2041},
-{"title":"Switches","id":2053},
-{"title":"Transform","id":2020},
-{"title":"Time","id":3155},
-{"title":"Frame Blending","id":2289},
-{"title":"3D Layer","id":2541},
-{"title":"Guide Layer","id":3081},
-{"title":"Add Marker","id":2157},
-{"title":"Preserve Transparency","id":2190},
-{"title":"Blen ding Mode","id":2162},
-{"title":"Next Blending Mode","id":2781},
-{"title":"Previous Blending Mode","id":2782},
-{"title":"Track Matte","id":2269},
-{"title":"Layer Styles","id":3739},
-{"title":"Bring to Front","id":2016},
-{"title":"Bring Forward","id":2018},
-{"title":"Send Backward","id":2019},
-{"title":"Send to Back","id":2017},
-{"title":"Adobe Encore","id":3082},
-{"title":"Create Outlines","id":2933},
-{"title":"Auto-trace...","id":3044},
-{"title":"Pre-compose...","id":2071},
+{"appVersions":[8,9,10,11,12],"title":"Layer New","id":2606},
+{"appVersions":[8,9,10,11,12],"title":"Layer Settings","id":2021},
+{"appVersions":[8,9,10,11,12],"title":"Open Layer","id":2015},
+{"appVersions":[8,9,10,11,12],"title":"Open So urce Window","id":2523},
+{"appVersions":[8,9,10,11,12],"title":"Mask","id":2040},
+{"appVersions":[8,9,10,11,12],"title":"Mask and Shape Path","id":3745},
+{"appVersions":[8,9,10,11,12],"title":"Quality","id":2041},
+{"appVersions":[8,9,10,11,12],"title":"Switches","id":2053},
+{"appVersions":[8,9,10,11,12],"title":"Transform","id":2020},
+{"appVersions":[8,9,10,11,12],"title":"Time","id":3155},
+{"appVersions":[8,9,10,11,12],"title":"Frame Blending","id":2289},
+{"appVersions":[8,9,10,11,12],"title":"3D Layer","id":2541},
+{"appVersions":[8,9,10,11,12],"title":"Guide Layer","id":3081},
+{"appVersions":[8,9,10,11,12],"title":"Add Marker","id":2157},
+{"appVersions":[8,9,10,11,12],"title":"Preserve Transparency","id":2190},
+{"appVersions":[8,9,10,11,12],"title":"Blen ding Mode","id":2162},
+{"appVersions":[8,9,10,11,12],"title":"Next Blending Mode","id":2781},
+{"appVersions":[8,9,10,11,12],"title":"Previous Blending Mode","id":2782},
+{"appVersions":[8,9,10,11,12],"title":"Track Matte","id":2269},
+{"appVersions":[8,9,10,11,12],"title":"Layer Styles","id":3739},
+{"appVersions":[8,9,10,11,12],"title":"Bring to Front","id":2016},
+{"appVersions":[8,9,10,11,12],"title":"Bring Forward","id":2018},
+{"appVersions":[8,9,10,11,12],"title":"Send Backward","id":2019},
+{"appVersions":[8,9,10,11,12],"title":"Send to Back","id":2017},
+{"appVersions":[8,9,10,11,12],"title":"Adobe Encore","id":3082},
+{"appVersions":[8,9,10,11,12],"title":"Create Outlines","id":2933},
+{"appVersions":[8,9,10,11,12],"title":"Auto-trace...","id":3044},
+{"appVersions":[8,9,10,11,12],"title":"Pre-compose...","id":2071},
 
 /* Composition */
-{"title":"New Composition...","id":2000},
-{"title":"Composition Settings...","id":2007},
-{"title":"Background Color...","id":2036},
-{"title":"Set Poster Time","id":2012},
-{"title":"Trim Comp to Work Area","id":2360},
-{"title":"Crop Comp to Region of Interest","id":2997},
-{"title":"Add to Render Queue","id":2161},
-{"title":"Add Output Module","id":2154},
-{"title":"Preview","id":2131},
-{"title":"Save Frame As","id":2233},
-{"title":"Make Movie...","id":2006},
-{"title":"Pre-render...","id":2780},
-{"title":"Save RAM Preview...","id":2125},
-{"title":"Comp Flowchart View","id":2258},
+{"appVersions":[8,9,10,11,12],"title":"New Composition...","id":2000},
+{"appVersions":[8,9,10,11,12],"title":"Composition Settings...","id":2007},
+{"appVersions":[8,9,10,11,12],"title":"Background Color...","id":2036},
+{"appVersions":[8,9,10,11,12],"title":"Set Poster Time","id":2012},
+{"appVersions":[8,9,10,11,12],"title":"Trim Comp to Work Area","id":2360},
+{"appVersions":[8,9,10,11,12],"title":"Crop Comp to Region of Interest","id":2997},
+{"appVersions":[8,9,10,11,12],"title":"Add to Render Queue","id":2161},
+{"appVersions":[8,9,10,11,12],"title":"Add Output Module","id":2154},
+{"appVersions":[8,9,10,11,12],"title":"Preview","id":2131},
+{"appVersions":[8,9,10,11,12],"title":"Save Frame As","id":2233},
+{"appVersions":[8,9,10,11,12],"title":"Make Movie...","id":2006},
+{"appVersions":[8,9,10,11,12],"title":"Pre-render...","id":2780},
+{"appVersions":[8,9,10,11,12],"title":"Save RAM Preview...","id":2125},
+{"appVersions":[8,9,10,11,12],"title":"Comp Flowchart View","id":2258},
 
 /* Layer */
-{"title":"New","id":2606},
-{"title":"Layer Settings...","id":2021},
-{"title":"Open Layer","id":2015},
-{"title":"Open Source Window","id":2523},
-{"title":"Mask","id":2040},
-{"title":"Mask and Shape Path","id":3745},
-{"title":"Quality","id":2041},
-{"title":"Switches","id":2053},
-{"title":"Transform","id":2020},
-{"title":"Time","id":3155},
-{"title":"Frame Blending","id":2289},
-{"title":"3D Layer","id":2541},
-{"title":"Guide Layer","id":3081},
-{"title":"Add Marker","id":2157},
-{"title":"Preserve Transparency","id":2190},
-{"title":"Blen ding Mode","id":2162},
-{"title":"Next Blending Mode","id":2781},
-{"title":"Previous Blending Mode","id":2782},
-{"title":"Track Matte","id":2269},
-{"title":"Layer Styles","id":3739},
-{"title":"Bring to Front","id":2016},
-{"title":"Bring Forward","id":2018},
-{"title":"Send Backward","id":2019},
-{"title":"Send to Back","id":2017},
-{"title":"Adobe Encore","id":3082},
-{"title":"Create Outlines","id":2933},
-{"title":"Auto-trace...","id":3044},
-{"title":"Pre-compose...","id":2071},
+{"appVersions":[8,9,10,11,12],"title":"New","id":2606},
+{"appVersions":[8,9,10,11,12],"title":"Layer Settings...","id":2021},
+{"appVersions":[8,9,10,11,12],"title":"Open Layer","id":2015},
+{"appVersions":[8,9,10,11,12],"title":"Open Source Window","id":2523},
+{"appVersions":[8,9,10,11,12],"title":"Mask","id":2040},
+{"appVersions":[8,9,10,11,12],"title":"Mask and Shape Path","id":3745},
+{"appVersions":[8,9,10,11,12],"title":"Quality","id":2041},
+{"appVersions":[8,9,10,11,12],"title":"Switches","id":2053},
+{"appVersions":[8,9,10,11,12],"title":"Transform","id":2020},
+{"appVersions":[8,9,10,11,12],"title":"Time","id":3155},
+{"appVersions":[8,9,10,11,12],"title":"Frame Blending","id":2289},
+{"appVersions":[8,9,10,11,12],"title":"3D Layer","id":2541},
+{"appVersions":[8,9,10,11,12],"title":"Guide Layer","id":3081},
+{"appVersions":[8,9,10,11,12],"title":"Add Marker","id":2157},
+{"appVersions":[8,9,10,11,12],"title":"Preserve Transparency","id":2190},
+{"appVersions":[8,9,10,11,12],"title":"Blen ding Mode","id":2162},
+{"appVersions":[8,9,10,11,12],"title":"Next Blending Mode","id":2781},
+{"appVersions":[8,9,10,11,12],"title":"Previous Blending Mode","id":2782},
+{"appVersions":[8,9,10,11,12],"title":"Track Matte","id":2269},
+{"appVersions":[8,9,10,11,12],"title":"Layer Styles","id":3739},
+{"appVersions":[8,9,10,11,12],"title":"Bring to Front","id":2016},
+{"appVersions":[8,9,10,11,12],"title":"Bring Forward","id":2018},
+{"appVersions":[8,9,10,11,12],"title":"Send Backward","id":2019},
+{"appVersions":[8,9,10,11,12],"title":"Send to Back","id":2017},
+{"appVersions":[8,9,10,11,12],"title":"Adobe Encore","id":3082},
+{"appVersions":[8,9,10,11,12],"title":"Create Outlines","id":2933},
+{"appVersions":[8,9,10,11,12],"title":"Auto-trace...","id":3044},
+{"appVersions":[8,9,10,11,12],"title":"Pre-compose...","id":2071},
 
 /* View */
-{"title":"New Viewer","id":2039},
-{"title":"Zoom In","id":2092},
-{"title":"Zoom Out","id":2093},
-{"title":"Resolution","id":2037},
-{"title":"Use Display Color Management","id":3704},
-{"title":"Simulate Output","id":3703},
-{"title":"Show Rulers","id":2280},
-{"title":"Show Guides","id":2274},
-{"title":"Snap to Guides","id":2286},
-{"title":"Lock Guides","id":2275},
-{"title":"Clear Guides","id":2276},
-{"title":"Show Grid","id":2277},
-{"title":"Snap to Grid","id":2278},
-{"title":"View Options...","id":2776},
-{"title":"Show Layer Controls","id":2435},
-{"title":"Reset 3D View","id":2642},
-{"title":"Switch 3D View","id":2625},
-{"title":"Assign 3D View Shortcut","id":2624},
-{"title":"Switch to Last 3D View","id":2703},
-{"title":"Look at Selected Layers","id":2834},
-{"title":"Look at All Layers","id":2835},
-{"title":"Goto Time...","id":2076},
+{"appVersions":[8,9,10,11,12],"title":"New Viewer","id":2039},
+{"appVersions":[8,9,10,11,12],"title":"Zoom In","id":2092},
+{"appVersions":[8,9,10,11,12],"title":"Zoom Out","id":2093},
+{"appVersions":[8,9,10,11,12],"title":"Resolution","id":2037},
+{"appVersions":[8,9,10,11,12],"title":"Use Display Color Management","id":3704},
+{"appVersions":[8,9,10,11,12],"title":"Simulate Output","id":3703},
+{"appVersions":[8,9,10,11,12],"title":"Show Rulers","id":2280},
+{"appVersions":[8,9,10,11,12],"title":"Show Guides","id":2274},
+{"appVersions":[8,9,10,11,12],"title":"Snap to Guides","id":2286},
+{"appVersions":[8,9,10,11,12],"title":"Lock Guides","id":2275},
+{"appVersions":[8,9,10,11,12],"title":"Clear Guides","id":2276},
+{"appVersions":[8,9,10,11,12],"title":"Show Grid","id":2277},
+{"appVersions":[8,9,10,11,12],"title":"Snap to Grid","id":2278},
+{"appVersions":[8,9,10,11,12],"title":"View Options...","id":2776},
+{"appVersions":[8,9,10,11,12],"title":"Show Layer Controls","id":2435},
+{"appVersions":[8,9,10,11,12],"title":"Reset 3D View","id":2642},
+{"appVersions":[8,9,10,11,12],"title":"Switch 3D View","id":2625},
+{"appVersions":[8,9,10,11,12],"title":"Assign 3D View Shortcut","id":2624},
+{"appVersions":[8,9,10,11,12],"title":"Switch to Last 3D View","id":2703},
+{"appVersions":[8,9,10,11,12],"title":"Look at Selected Layers","id":2834},
+{"appVersions":[8,9,10,11,12],"title":"Look at All Layers","id":2835},
+{"appVersions":[8,9,10,11,12],"title":"Goto Time...","id":2076},
 
 
 /* Effect */
-{"title":"Effect Controls","id":2163},
-{"title":"Last Effect","id":2452},
-{"title":"Remove All","id":2072},
+{"appVersions":[8,9,10,11,12],"title":"Effect Controls","id":2163},
+{"appVersions":[8,9,10,11,12],"title":"Last Effect","id":2452},
+{"appVersions":[8,9,10,11,12],"title":"Remove All","id":2072},
 
 /* Window */
-{"title":"Work space","id":2738},
-{"title":"Assign Workspace Shortcut","id":3707}
+{"appVersions":[8,9,10,11,12],"title":"Work space","id":2738},
+{"appVersions":[8,9,10,11,12],"title":"Assign Workspace Shortcut","id":3707}
 ];
 
 ///   THIS WILL CHECK IF PANEL IS DOCKABLE OR FLAOTING WINDOW
@@ -273,8 +273,8 @@ if ((win !== null) && (win instanceof Window)) {
             help_panel('execute_command.jsx v' + data.script_version + ' Help');
         };
 
-            for(var j=0; j< data.iconfiles.length; j++) {
-            data.iconfiles[j].remove();
+            for(var j=0; j< iconfiles.length; j++) {
+            iconfiles[j].remove();
             }
     }
     return win;
@@ -287,7 +287,29 @@ helpText.push('If you run into any bugs please report an issue @ '+ data.issue_t
 helpText.push('List is taken from aenhancers post http://aenhancers.com/viewtopic.php?f=8&t=889');
 
 for(var i = 0; i < data.cmdListEn.length;i++){
-    helpText.push(data.cmdListEn[i].title + " --> " + String(data.cmdListEn[i].id) );
+  var item = data.cmdListEn[i];
+  var versionStr = "Works in these app versions:";
+  for(var j =0; j < item.appVersions.length;j++){
+    switch(item.appVersions[j]){
+      case 8:
+    versionStr += " CS3, ";
+      break;
+      case 9:
+      versionStr+= " CS4, ";
+      break;
+      case 10:
+      versionStr+= " CS5, CS5.5, ";
+      break;
+      case 11:
+      versionStr+= " CS6, ";
+      break;
+      case 12:
+      versionStr+= " CC ";
+      break;
+      }
+    }
+
+    helpText.push(versionStr +" "+ item.title + " --> " + String(item.id) );
 }
 
 helpText.push('');
@@ -301,7 +323,7 @@ for(var hist = 0; hist < data.verison_history.length; hist++){
 
 
 var diag                     = new Window ('dialog',title + ''); // the new window
-    diag.preferredSize       =    {'width':250,'height':130};
+    diag.preferredSize       =    {'width':600,'height':130};
     diag.supergroup                 = diag.add('group',undefined,'');
     diag.supergroup.orientation     ='column';
     diag.rowhelptext = diag.supergroup.add('group');
@@ -309,7 +331,7 @@ var diag                     = new Window ('dialog',title + ''); // the new wind
     diag.rowhelptext.edittxt = diag.rowhelptext.add('edittext',undefined,helpText.join('\n'),{
                                         multiline:true,
                                         scrolling: true});
-    diag.rowhelptext.edittxt.preferredSize = {'width':470,'height':400};
+    diag.rowhelptext.edittxt.preferredSize = {'width':600,'height':400};
 
     /* ----------------------------------------------- */
     diag.rowconfirm            = diag.supergroup.add ('group');
@@ -365,7 +387,7 @@ function execute_command(){
     //     }
 
 
-    app.beginUndoGroup('execute command ' + data.id);
+    // app.beginUndoGroup('execute command ' + data.id);
 
     try{
       app.executeCommand(data.id);
@@ -375,7 +397,7 @@ function execute_command(){
 
 // var props = curComp.selectedProperties
 
-    app.endUndoGroup();
+    // app.endUndoGroup();
   }
  }// close run
 
